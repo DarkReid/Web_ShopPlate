@@ -10,7 +10,7 @@ a{
         border-radius: 2px;
 }
 .header_btn{
-        padding-left: 918px;
+        padding-left: 908px;
 }
 .header_panel{
         margin: 40px auto;
@@ -35,3 +35,31 @@ a{
         font-style: italic;
         font-weight: 400;
 }
+.list{
+        border: 2px solid black;
+        display: inline-flex;
+        flex-wrap: wrap;
+        vertical-align: top;
+        width: 150px;
+        position: relative;
+        margin: 15px;
+}
+.product{
+        width: 120px;
+        height: 120px;
+        background: white;
+        margin: 10px;
+        text-align: center;
+        display: inline-block;
+        padding: 5px auto;
+
+}
+.type{
+        margin: 10px auto;
+}
+.container{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+}
+

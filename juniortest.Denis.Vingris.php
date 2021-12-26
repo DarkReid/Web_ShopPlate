@@ -21,14 +21,29 @@
                         <div class="header_text">Product List</div>
                     </div>
                     <div class="header_btn">
-                        <button type="button" class="add_btn">Add</button>
-                        <button type="button" class="delete_btn">Mas Delete</button>
+                        <button type="button" id="add" class="add_btn">Add</button>
+                        <button type="button" id="delete" class="delete_btn">Mas Delete</button>
                     </div>
                 </div>
                 <hr>
             </div>
         </header>
     </article>
+    <div class="product_list">
+        <div class="content">
+            <div class="list">
+                <label class="container">
+                    <input type= "checkbox" checked="">
+                </label>
+                <div class="product">
+                    <div class="type">id</div>
+                    <div class="type">name</div>
+                    <div class="type">price</div>
+                    <div class="type">description</div>
+                </div>
+            </div>
+        </div>
+    </div>
     <article class="footer">
         <footer>
             <div class="content">
@@ -41,5 +56,6 @@
             </div>
         </footer>
     </article>
+    <script src="js_scripts/scripts.js"></script>
 </body>
 </html>
