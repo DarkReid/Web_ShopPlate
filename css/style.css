@@ -33,3 +33,8 @@ button{
     width: 100%;
     height: 80px;
 }
+input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

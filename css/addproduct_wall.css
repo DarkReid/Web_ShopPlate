@@ -1,0 +1,59 @@
+.header_btn{
+    padding-left: 908px;
+}
+.header_panel{
+    margin: 40px auto;
+    display: flex;
+    justify-content: flex-start
+}
+.header_text-size{
+    width: auto;
+    height: auto;
+}
+.header_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.footer_text-size{
+    text-align: center;
+}
+.footer_text{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.product_info{
+    max-width: 266px;
+}
+.product_name{
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+.product_sku{
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.product_price{
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: auto;
+    padding-right: 0;
+}
+.product_switch{
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.panel_position{
+    padding-right: 20px;
+}
+.input_menu{
+    max-width: 50px;
+    min-width: 50px;
+}
