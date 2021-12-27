@@ -21,8 +21,10 @@
                         <div class="header_text">Product List</div>
                     </div>
                     <div class="header_btn">
-                        <button type="button" id="add" class="add_btn" onclick="http://localhost/Test_Project/juniortest.Deniss.Vingris.addproduct.php">Add</button>
-                        <button type="button" id="delete" class="delete_btn">Mas Delete</button>
+                        <!--<button type="button" id="add" class="add_btn" onclick="add_btn()">Add</button> -->
+                        <a id="add" class="add_btn" href="http://localhost/Test_Project/juniortest.Deniss.Vingris.addproduct.php">Add</a>
+                        <!--<button type="button" id="delete" class="delete_btn" onclick="delete_btn()">Mas Delete</button> -->
+                        <a id="delete" class="delete_btn" href="">Mas Delete</a>
                     </div>
                 </div>
                 <hr>

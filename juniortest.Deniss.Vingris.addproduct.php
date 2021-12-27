@@ -34,34 +34,66 @@
             <div class="product_info">
             <div class="product_sku" class="input_menu">
                     <div class="panel_position">
-                        <div class="sku">SKU</div>
+                        <div class="text_type">SKU</div>
                     </div>
                     <input class="input">
                 </div>
                 <div class="product_name" class="input_menu">
                     <div class="panel_position">
-                        <div class="name">Name</div>
+                        <div class="text_type">Name</div>
                     </div>
                     <input class="input">
                 </div>
                 <div class="product_price" class="input_menu">
                     <div class="panel_position">
-                        <div class="price">Price</div>
+                        <div class="text_type">Price</div>
                     </div>
                     <input class="input">
                 </div>
             </div>
             <div class="product_switch" class="input_menu">
                 <div class="panel_position">
-                    <div class="type_switch">Type Switch</div>
+                    <div class="text_type">Type Switch</div>
                 </div>
-                <select id="select-box1" class="select">
+                <select id="select-box" class="select">
                     <option value="none">Type Switch</option>
                     <option value="dvd">DVD</option>
                     <option value="furnuture">Furniture</option>
                     <option value="book">Book</option>
                 </select>
             </div>
+                <div class="product_field">
+                    <div id="DVD">
+                        <div class="dvd_form">
+                            <div class="text_type">Size (MB)</div>
+                            <input id="size" type="input">
+                        </div>
+                    </div>
+                    <div id="Furniture">
+                        <div class="furniture_form">
+                            <div>
+                                <div class="text_type">Height (CM)</div>
+                                <input id="height" type="text">
+                            </div>
+                            <div>
+                                <div class="text_type">Width (CM)</div>
+                                <input id="width" type="text">
+                            </div>
+                            <div>
+                                <div class="text_type">Lenght (CM)</div>
+                                <input id="lenght" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Book">
+                        <div class="book_form">
+                            <div>
+                                <div class="text_type">Weight (KG)</div>
+                                <input id="weight" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
     <article class="footer">
