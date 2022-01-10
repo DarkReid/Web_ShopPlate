@@ -21,8 +21,10 @@
                         <div class="header_text">Product Add</div>
                     </div>
                     <div class="header_btn">
-                        <button type="button" id="add" class="add_btn">Add</button>
-                        <button type="button" id="delete" class="delete_btn">Mas Delete</button>
+                        <!--<button type="button" id="add" class="add_btn">Add</button>-->
+                        <a id="save" class="add_btn">Save</a>
+                        <!--<button type="button" id="delete" class="delete_btn">Mas Delete</button>-->
+                        <a id="cancel" class="add_btn">Cancel</a>
                     </div>
                 </div>
                 <hr>
@@ -36,62 +38,71 @@
                     <div class="panel_position">
                         <div class="text_type">SKU</div>
                     </div>
-                    <input class="input">
+                    <input id="sku" class="input">
                 </div>
                 <div class="product_name" class="input_menu">
                     <div class="panel_position">
                         <div class="text_type">Name</div>
                     </div>
-                    <input class="input">
+                    <input id="name" class="input">
                 </div>
                 <div class="product_price" class="input_menu">
                     <div class="panel_position">
                         <div class="text_type">Price</div>
                     </div>
-                    <input class="input">
+                    <input id="price" class="input">
                 </div>
             </div>
             <div class="product_switch" class="input_menu">
                 <div class="panel_position">
                     <div class="text_type">Type Switch</div>
                 </div>
-                <select id="select-box" class="select">
-                    <option value="none">Type Switch</option>
+                <select name="product" class="select" id="productType" onchange="selectedValue(this.id)">
+                    <option value="none" disabled selected>Type Switch</option>
                     <option value="dvd">DVD</option>
-                    <option value="furnuture">Furniture</option>
+                    <option value="furniture">Furniture</option>
                     <option value="book">Book</option>
                 </select>
             </div>
                 <div class="product_field">
-                    <div id="DVD">
-                        <div class="dvd_form">
+                    <div class="dvd inv" id="DVD">
+                        <div class="info_field">
                             <div class="text_type">Size (MB)</div>
-                            <input id="size" type="input">
+                            <input type="text" class="input" id="size">
+                        </div>
+                        <div class="text_descrition">The DVD is a digital optical disc data storage format invented and developed in 1995 and released in late 1996. 
+                            Currently allowing up to 17.08 GB of storage, the medium can store any kind of digital data and was widely used for software and other computer files as well as video programs watched using DVD players.  
+                            The roles of DVDs have largely been replaced by solid-state drives and direct connection to the Internet for local storage, video streaming, and online gaming.
                         </div>
                     </div>
-                    <div id="Furniture">
-                        <div class="furniture_form">
-                            <div>
-                                <div class="text_type">Height (CM)</div>
-                                <input id="height" type="text">
-                            </div>
-                            <div>
-                                <div class="text_type">Width (CM)</div>
-                                <input id="width" type="text">
-                            </div>
-                            <div>
-                                <div class="text_type">Lenght (CM)</div>
-                                <input id="lenght" type="text">
-                            </div>
+                    <div class="furniture inv" id="Furniture">
+                        <div class="info_field">
+                            <div class="text_type">Height (CM)</div>
+                            <input type="text" class="input" id="height">
+                        </div>
+                        <div class="info_field">
+                            <div class="text_type">Width (CM)</div>
+                            <input type="text" class="input" id="width">
+                        </div>
+                        <div class="info_field">
+                            <div class="text_type">Lenght (CM)</div>
+                            <input type="text" class="input" id="lenght">
+                        </div>
+                        <div class="text_descrition">Furniture consists of large objects such as tables, chairs, 
+                            or beds that are used in a room for sitting or lying on or for putting things on or in. 
+                            Each piece of furniture in their home suited the style of the house.
                         </div>
                     </div>
-                    <div id="Book">
-                        <div class="book_form">
-                            <div>
-                                <div class="text_type">Weight (KG)</div>
-                                <input id="weight" type="text">
-                            </div>
+                    <div class="book inv" id="Book">
+                        <div class="info_field">    
+                            <div class="text_type">Weight (KG)</div>
+                            <input type="text" class="input" id="weight">
                         </div>
+                            <div class="text_descrition">A book is a medium for recording information in the form of writing or images, 
+                                typically composed of many pages bound together and protected by a cover.
+                                The technical term for this physical arrangement is codex. 
+                                In the history of hand-held physical supports for extended written compositions or records, the codex replaces its predecessor, the scroll.
+                                A single sheet in a codex is a leaf and each side of a leaf is a page.</div>
                     </div>
                 </div>
         </div>
@@ -108,5 +119,6 @@
             </div>
         </footer>
     </article>
+    <script src="js_scripts/scripts.js"></script>
 </body>
 </html>

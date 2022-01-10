@@ -50,10 +50,33 @@
     display: flex;
     justify-content: flex-start;
 }
-.panel_position{
-    padding-right: 20px;
+.product_field{
+    margin: 10px auto;
+    display: block;
+    justify-content: flex-start;
 }
 .input_menu{
     max-width: 50px;
     min-width: 50px;
+}
+.inv{
+    display: none;
+    max-width: 310px;
+}
+.text_type{
+    margin-right: 20px;
+}
+.text_descrition{
+    max-width: 320px;
+    max-height: 240px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.info_field{
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: auto;
+    padding-right: 0;
 }
