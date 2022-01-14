@@ -1,14 +1,9 @@
-.header_btn{
-        padding-left: 908px;
-}
 .header_panel{
-        margin: 40px auto;
+        width: 100%;
+        padding: 30px 40px;
         display: flex;
-        justify-content: flex-start
-}
-.header_text-size{
-        width: auto;
-        height: auto;
+        justify-content: space-between;
+        text-align: center;
 }
 .header_text{
         font-family: 'Roboto', sans-serif;
@@ -43,11 +38,15 @@
         padding: 5px auto;
 
 }
+.product_list{
+        width: 100%;
+        margin:0px auto;
+        min-height:89%;
+}
 .type{
         margin: 10px auto;
 }
 .container{
-        position: absolute;
         top: 10px;
         left: 10px;
 }

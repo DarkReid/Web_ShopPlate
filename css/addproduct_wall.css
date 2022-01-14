@@ -80,3 +80,10 @@
     padding-left: auto;
     padding-right: 0;
 }
+.footer_down{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}

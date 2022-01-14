@@ -1,15 +1,16 @@
-//color for add btn
+//red color btn
 document.getElementById("add").onclick = function(){
     this.style.backgroundColor = "blue";
     document.getElementById("delete").style.backgroundColor = "gray";  
 };
 
-//color for delete btn
+//blue color btn
 document.getElementById("delete").onclick = function(){
     this.style.backgroundColor = "red";
     document.getElementById("add").style.backgroundColor = "gray";
 };
 
+//dropdown menu, show/hide div block
 function selectedValue(selected){
     var selected = document.getElementById(selected);
 

@@ -13,23 +13,22 @@
     <title>Product add</title>
 </head>
 <body>
-    <article class="header_menu">
+<article class="header_menu">
         <header>
             <div class="content">
                 <div class="header_panel">
                     <div class="header_text-size">
-                        <div class="header_text">Product Add</div>
+                        <div class="header_text">Product List</div>
                     </div>
                     <div class="header_btn">
-                        <!--<button type="button" id="add" class="add_btn">Add</button>-->
-                        <a id="save" class="add_btn">Save</a>
-                        <!--<button type="button" id="delete" class="delete_btn">Mas Delete</button>-->
-                        <a id="cancel" class="add_btn">Cancel</a>
+                        <a id="add" class="save_btn" href="#">Save</a>
+                        <a id="delete" class="cancel_btn" href="#">Cancel</a>
                     </div>
                 </div>
                 <hr>
             </div>
         </header>
+    </article>
     </article>
     <div class="form_panel">
         <div class="content">
@@ -107,7 +106,7 @@
                 </div>
         </div>
     </div>
-    <article class="footer">
+    <article class="footer footer_down">
         <footer>
             <div class="content">
                 <div class="footer_panel">

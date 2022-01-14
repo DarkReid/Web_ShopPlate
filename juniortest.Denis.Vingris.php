@@ -21,10 +21,8 @@
                         <div class="header_text">Product List</div>
                     </div>
                     <div class="header_btn">
-                        <!--<button type="button" id="add" class="add_btn" onclick="add_btn()">Add</button> -->
                         <a id="add" class="add_btn" href="http://localhost/Test_Project/juniortest.Deniss.Vingris.addproduct.php">Add</a>
-                        <!--<button type="button" id="delete" class="delete_btn" onclick="delete_btn()">Mas Delete</button> -->
-                        <a id="delete" class="delete_btn" href="">Mas Delete</a>
+                        <a id="delete" class="delete_btn" href="#">Mas Delete</a>
                     </div>
                 </div>
                 <hr>
@@ -33,15 +31,17 @@
     </article>
     <div class="product_list">
         <div class="content">
-            <div class="list">
-                <label class="container">
-                    <input type= "checkbox" checked="">
-                </label>
-                <div class="product">
-                    <div class="type">id</div>
-                    <div class="type">name</div>
-                    <div class="type">price</div>
-                    <div class="type">description</div>
+            <div class="article">
+                <div class="list">
+                    <label class="container">
+                        <input type= "checkbox" checked="">
+                    </label>
+                    <div class="product">
+                        <div class="type">id</div>
+                        <div class="type">name</div>
+                        <div class="type">price</div>
+                        <div class="type">description</div>
+                    </div>
                 </div>
             </div>
         </div>
