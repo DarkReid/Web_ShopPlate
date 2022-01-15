@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1173px){
+    .article{
+        margin: 0 55px;
+    }
+}
+@media only screen and (max-width: 1173px){
+    .article{
+        margin: 0 55px;
+    }
+    .list{
+        width: 148px;
+    }
+}
+@media only screen and (max-width: 1101px){
+    .article{
+        margin: 0 80px;
+    }
+    .list{
+        width: 150px;
+        height: 170px;
+        margin: 30px;
+    }
+}
+@media only screen and (max-width: 1095px){
+    .article{
+        margin: 0 120px;
+        padding: 0px 68px;
+    }
+    .list{
+        width: 150px;
+        height: 170px;
+        margin: 30px;
+    }
+}
+@media only screen and (max-width: 1061px){
+    .article{
+        margin: 0 20px;
+        padding: 0px 68px;
+    }
+    .list{
+        width: 150px;
+        height: 170px;
+        margin: 30px;
+    }
+}
+@media only screen and (max-width: 845px){
+    .article{
+        margin: 0 20px;
+        padding: 0px 68px;
+    }
+    .list{
+        width: 150px;
+        height: 170px;
+        margin: 30px;
+    }
+}
+@media only screen and (max-width: 728px){
+    .article{
+        margin: 0 20px;
+        padding: 0px 68px;
+    }
+    .list{
+        width: 172px;
+        height: 197px;
+        margin: 30px;
+    }
+    .product{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 674px){
+    .article{
+        margin: 0 20px;
+        padding: 0px 68px;
+    }
+    .list{
+        width: 220px;
+        height: 197px;
+        margin: 30px;
+        padding: 0px 1px;
+    }
+    .product{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 471px){
+    .article{
+        margin: 0 20px;
+        padding: 0px 68px;
+    }
+    .list{
+        width: 220px;
+        height: 197px;
+        margin: 30px;
+        padding: 0px 1px;
+    }
+    .product{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 410px){
+    .article{
+        margin: 0 20px;
+        padding: 0px 15px;
+    }
+    .list{
+        width: 220px;
+        height: 197px;
+        margin: 30px;
+        padding: 0px 1px;
+    }
+    .product{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+

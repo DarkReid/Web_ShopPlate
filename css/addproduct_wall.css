@@ -1,13 +1,5 @@
-.header_btn{
-    padding-left: 908px;
-}
 body, html{
     height: 0;
-}
-.header_panel{
-    margin: 40px auto;
-    display: flex;
-    justify-content: flex-start
 }
 .header_text-size{
     width: auto;
